@@ -1,0 +1,147 @@
+.zeyo_mConwrap {
+    padding: 5%;
+}
+
+.semiNotice {
+    float: left;
+    font-size: 1.286em;
+    line-height: 200%;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 5%;
+    font-weight: bold;
+}
+
+.semititle {
+    float: left;
+    font-size: 1.14em;
+    width: 15%;
+    text-align: right;
+    margin-right: 5%;
+    font-weight: bold;
+    line-height: 100%;
+}
+
+.hwaInfo {
+    margin-top: 5%;
+}
+
+.hwaSlider {
+    margin: 5%;
+}
+
+.textInfo {
+    width: 66%;
+    line-height: normal;
+    border: 0;
+    border-bottom: 1px solid #202020;
+    outline-style: none;
+    text-align: center;
+    font-size: 1.42em;
+    margin-bottom: 3%;
+}
+
+.hwaForm {
+    margin-top: 15%;
+}
+
+.sliderDefault {
+    margin-bottom: 5%;
+}
+
+.divideMenu {
+    margin-top: 5%;
+}
+
+/* Button Menu */
+
+.destinationmenu {
+    margin-top: 5%;
+    float: right;
+    width: 60%;
+}
+
+.destinationmenu button {
+    background-color:#fff;
+    border-radius: 5px;
+	border:1px solid #202020;
+	display:inline-block;
+	color:#202020;
+	font-size:1.143em;
+	line-height:200%;
+	width:40%;
+    height: 30px; /* 초기화 / 비교하기 버튼 높이크기 % 조절 하지 못함 */
+    margin-left: 5%;
+	text-decoration:none;
+	text-align:center;
+}
+
+.destinationmenu button:active {
+    background-color:#d81100;
+    border: 1px solid #d81100;
+    color: #fff;
+}
+
+/* Slide Bar */
+
+.sliderDefault input[type=range] {
+    -webkit-appearance: none;
+    width: 80%;
+    background: #dcdcdd;
+    border: 1px solid #dcdcdd;
+    border-radius: 10px;
+    float: left;
+    margin-bottom: 15%;
+}
+
+.sliderDefault input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+}
+
+.sliderDefault input[type=range]::focus {
+    outline: none;
+}
+
+.sliderDefault input[type=range]::ms-track {
+    width: 100%;
+    cursor: pointer;
+    background: #dcdcdd;
+    background-color: #dcdcdd;
+    color: transparent;
+}
+
+.sliderDefault input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    border: transparent;
+    height: 25px;
+    width: 16px;
+    border-radius: 5px;
+    background-image: url("../img/redpointer.svg");
+    background-repeat: no-repeat;
+    cursor: pointer;
+    margin-top: -14px;
+}
+
+/* All the same stuff for Firefox */
+.sliderDefault input[type=range]::-moz-range-thumb {
+    border: transparent;
+    height: 25px;
+    width: 16px;
+    border-radius: 5px;
+    background-image: url("../img/redpointer.svg");
+    background-repeat: no-repeat;
+    cursor: pointer;
+    margin-top: -14px;
+}
+
+/* All the same stuff for IE */
+.sliderDefault input[type=range]::-ms-thumb {
+    border: transparent;
+    height: 25px;
+    width: 16px;
+    border-radius: 5px;
+    background-image: url("../img/redpointer.svg");
+    background-repeat: no-repeat;
+    cursor: pointer;
+    margin-top: -14px;
+}

@@ -1,0 +1,344 @@
+/* default css */
+
+.contentArea input[type='radio'] {
+    display: none;
+}
+
+
+.contentArea label {
+    text-align: center;
+}
+
+.contentArea button {
+    background-color:#fff;
+    border-radius: 5px;
+	border:1px solid #202020;
+	display:inline-block;
+	color:#202020;
+	font-size:1em;
+	line-height:100%;
+	width:100%;
+    height: 2em; /* 초기화 / 비교하기 버튼 높이크기 % 조절 하지 못함 */
+    margin-bottom: 2%;
+    margin-left: 2%;
+	text-decoration:none;
+	text-align:center;
+}
+
+.contentArea button:active {
+    background-color:#d81100;
+    border: 1px solid #d81100;
+    color: #fff;
+}
+
+.contentArea input[type='radio']+label {
+    content:'';
+    display:inline-block;
+    height: 2em;
+    width:20%;
+    vertical-align: middle;
+    margin: 0;
+    background-color: white;
+    color: black;
+    border: 1px solid #202020;
+    border-radius: 5px;
+    margin-right: 5%;
+    line-height: 200%;
+}
+
+.contentArea input[type='radio']:checked+label {
+    background-color: #d81100;
+    color: white;
+    border: 1px solid #d81100;
+    border: 0;
+}
+
+.contentArea input[type=range] {
+    -webkit-appearance: none;
+    width: 100%;
+    background: #dcdcdd;
+    border: 1px solid #dcdcdd;
+    border-radius: 10px;
+}
+
+.contentArea input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+}
+
+.contentArea input[type=range]::focus {
+    outline: none;
+}
+
+.contentArea input[type=range]::ms-track {
+    width: 100%;
+    cursor: pointer;
+    background: #dcdcdd;
+    background-color: #dcdcdd;
+    color: transparent;
+}
+
+.contentArea input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    border: transparent;
+    height: 20px;
+    width: 16px;
+    border-radius: 5px;
+    background-image: url("../img/redpointer.svg");
+    cursor: pointer;
+    margin-top: -14px;
+}
+
+/* All the same stuff for Firefox */
+.contentArea input[type=range]::-moz-range-thumb {
+    border: transparent;
+    height: 20px;
+    width: 16px;
+    border-radius: 5px;
+    background-image: url("../img/redpointer.svg");
+    cursor: pointer;
+    margin-top: -14px;
+}
+
+/* All the same stuff for IE */
+.contentArea input[type=range]::-ms-thumb {
+    border: transparent;
+    height: 20px;
+    width: 16px;
+    border-radius: 5px;
+    background-image: url("../img/redpointer.svg");
+    cursor: pointer;
+    margin-top: -14px;
+}
+
+.contentArea select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-color: white;
+    text-align: center;
+    border: 1px solid #202020;
+    border-radius: 5px;
+    width: 130%;
+    padding: 10%;
+}
+
+.contentArea select::-ms-expand {
+    display: none;
+}
+
+.contentArea hr {
+    color: #DCDCDD;
+    height: 1px;
+    width: 100%;
+    visibility: visible;
+    position: relative;
+    margin-bottom: 3%;
+    margin-top: 3%;
+}
+
+/* padding Content Area */
+
+.paddingArea {
+    padding: 2%;
+}
+
+/* divide content area */
+
+.botArea {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    height: 20%;
+    text-align: center;
+    border-top: 1px solid #d81100;
+}
+
+/* title area css */
+
+.contentArea .titleArea #rulerBt {
+    background-color: #d81100;
+    border: 1px solid #d81100;
+    color: #fff;
+}
+
+.contentArea .titleArea {
+    float:left;
+    width:100%;
+    max-width: 100%;
+    max-height: 20%;
+    text-align: center;
+    line-height: 250%;
+    margin-bottom: 1%;
+}
+
+.contentArea .titleArea img {
+    background-color: rgba(0,0,0,0);
+}
+
+.contentArea .titleArea .col label{
+    line-height: 250%;
+    font-size: 1.143em;
+}
+
+.contentArea .titleArea #title {
+    margin-left: 18%;
+    font-size:2.143em;
+	color:#000;
+}
+
+.contentArea .titleArea .col {
+    float:left;
+    padding:0;
+}
+
+.contentArea .titleArea #title p {
+    font-size: 0.467em;
+}
+
+.contentArea .topBt {
+    margin-left: 1%;
+    margin-top: 2%;
+}
+
+.contentArea .topCat {
+    margin-right: 2%;
+    margin-top: 2%;
+    margin-left: 2%;
+}
+
+.contentArea .titleArea .backicon {
+    vertical-align: middle;
+}
+
+/* bottom area css */
+
+.botArea .botText {
+    position: absolute;
+    bottom: 0;
+    left: 30%;
+}
+
+.botArea p {
+    text-align: center;
+    font-size: 1em;
+}
+
+/* content area css */
+
+
+/* left Area */
+
+.leftArea .sliText {
+    position: absolute;
+    top: 22%;
+    left: 32%;
+    text-align: center;
+}
+.leftArea #inchSlider {
+    position: absolute;
+    top: 27.5%;
+    left: 25%;
+    width: 50%;
+    height: 1em;
+}
+
+.leftArea .inchArea {
+    position: absolute;
+    top: 35%;
+    left: 31.5%;
+    font-size: 2em;
+}
+
+.leftArea .inchArea .redFont {
+    color: #d81100;
+}
+
+.leftArea .cardArea .cardBox {
+    border: 5px dashed #888888;
+    text-align: center;
+    position: absolute;
+    top: 45%;
+    left: 35%;
+    width: 31.035%;
+    height: 30%;
+}
+
+.leftArea .cardBox span {
+    position: absolute;
+    top: 43.5%;
+    left: 37%;
+    font-size: 1.571em;
+}
+
+/* right Area */
+.rightArea .monitorCompare {
+    position: absolute;
+    top: 40%;
+    right: 3%;
+    width: 15.25%;
+}
+
+.rightArea .monitorCompare p {
+    margin-left: 2%;
+    width: 100%;
+}
+
+.rightArea .compareMoni {
+    margin-top: 0%;
+}
+
+.rightArea .compareMoni ul li {
+    width: 100%;
+}
+
+.rightArea ul {
+    width: 100%;
+}
+
+.rightArea ul li{
+    width: 100%;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-bottom: 10%;
+}
+
+.rightArea input[type=text] {
+    width: 75%;
+    line-height: normal;
+    border: 0;
+    border: 1px solid #202020;
+    border-radius: 5px;
+    outline-style: none;
+    text-align: center;
+    font-size: 1.142em;
+    margin-bottom: 3%;
+    margin-left: 3%;
+}
+
+.rightArea input[type='radio']+label {
+    content:'';
+    display:inline-block;
+    height: 2.25em;
+    width:100%;
+    vertical-align: middle;
+    margin: 0;
+    background-color: white;
+    color: black;
+    border: 1px solid #202020;
+    border-radius: 5px;
+    margin-right: 0%;
+    line-height: 225%;
+    text-align: center;
+}
+
+.rightArea input[type='radio']:checked+label {
+    background-color: #d81100;
+    color: white;
+    border: 1px solid #d81100;
+    border: 0;
+}
+
+.rightArea .inchMenu input[type=text] {
+    height: 2em;
+    width: 90%;
+}

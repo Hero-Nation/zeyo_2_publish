@@ -1,0 +1,55 @@
+.zeyo_mConwrap {
+    padding: 5%;
+}
+
+.sizeTitle {
+    font-weight: bold;
+    font-size: 1.42em;
+    text-align: center;
+}
+
+.topArea p {
+    font-weight: bold;
+    font-size: 1.14em;
+    text-align: center;
+}
+
+.topArea button {
+    background-color:#d81100;
+    border-radius: 5px;
+	border:1px solid #d81100;
+	display:inline-block;
+	color:#fff;
+	font-size:1.143em;
+	line-height:100%;
+	width:20%;
+    height: 2em; /* 초기화 / 비교하기 버튼 높이크기 % 조절 하지 못함 */
+    margin-left: 77.5%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+	text-decoration:none;
+	text-align:center;
+}
+
+.topArea button:active {
+    background-color:#d81100;
+    border: 1px solid #d81100;
+    color: #fff;
+}
+
+.imgExplain {
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+
+.imgExplain img {
+    width: 70%;
+    height: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.textExplain {
+    text-align: center;
+}

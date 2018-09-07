@@ -1,0 +1,29 @@
+.faqWrap {
+    text-align: center;
+    padding: 5%;
+}
+
+.faqTitle p {
+    font-size: 1.429em;
+    font-weight: bold;
+}
+
+.qesTitle {
+    margin-top: 15%;
+}
+
+.qesTitle p {
+    font-size: 1.143em;
+}
+
+.qesList {
+    margin-top: 15%;
+    text-align: left;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.qesList li {
+    font-size: 1.143em;
+    margin-bottom: 10%;
+}

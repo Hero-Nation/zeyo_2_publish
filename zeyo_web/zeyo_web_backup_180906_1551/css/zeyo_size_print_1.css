@@ -1,0 +1,296 @@
+.paddingArea {
+    padding: 2%;
+}
+
+.leftArea {
+    float: left;
+    width: 50%;
+}
+
+.rightArea {
+    float: left;
+    width: 50%;
+    padding-left: 2%;
+}
+
+.btWrap {
+    position: absolute;
+    top: 0%;
+    left: 65%;
+    width: 40%;
+}
+
+.contentArea .titleArea {
+    float:left;
+    width:100%;
+    max-width: 100%;
+    max-height: 20%;
+    text-align: center;
+    line-height: 250%;
+    margin-bottom: 1%;
+}
+
+.contentArea .titleArea img {
+    background-color: rgba(0,0,0,0);
+}
+
+.contentArea .titleArea .col label{
+    line-height: 250%;
+    font-size: 1.143em;
+}
+
+.contentArea .titleArea #title {
+    margin-left: 20%;
+    font-size:2.143em;
+	color:#000;
+}
+
+.contentArea .titleArea .col {
+    float:left;
+    padding:0;
+}
+
+.contentArea .titleArea #title p {
+    font-size: 0.467em;
+}
+
+.contentArea .topBt {
+    margin-left: 2%;
+}
+
+.contentArea .topCat {
+    margin-right: 5%;
+    margin-left: 3%;
+}
+
+.contentArea .titleArea .backicon {
+    vertical-align: middle;
+}
+
+.contentArea button {
+    background-color:#fff;
+    border-radius: 5px;
+	border:1px solid #202020;
+	display:inline-block;
+	color:#202020;
+	font-size:1em;
+	line-height:100%;
+	width:100%;
+    height: 2em; /* 초기화 / 비교하기 버튼 높이크기 % 조절 하지 못함 */
+    margin-bottom: 2%;
+    margin-left: 2%;
+	text-decoration:none;
+	text-align:center;
+}
+
+.contentArea button:active {
+    background-color:#d81100;
+    border: 1px solid #d81100;
+    color: #fff;
+}
+
+.contentArea #printBt {
+    background-color: #d81100;
+    border: 1px solid #d81100;
+    color: #fff;
+}
+
+.leftArea {
+    border: 1px solid #202020;
+    height: 360px;
+}
+
+input[type='radio'] {
+    display: none;
+}
+
+
+label {
+    text-align: center;
+}
+
+input[type='radio']+label {
+    content:'';
+    display:inline-block;
+    height: 2em;
+    width:20%;
+    vertical-align: middle;
+    margin: 0;
+    background-color: white;
+    color: black;
+    border: 1px solid #202020;
+    border-radius: 5px;
+    margin-right: 5%;
+    line-height: 200%;
+}
+
+input[type='radio']:checked+label {
+    background-color: #d81100;
+    color: white;
+    border: 1px solid #d81100;
+    border: 0;
+}
+
+.compareTarget .semititle {
+    width: 40%;
+    line-height: 150%;
+    font-size: 1.143em;
+    margin-right: 3%;
+}
+
+.compareTarget {
+    font-size: 1.143em;
+}
+
+.btWrap {
+    margin-top: 3%;
+}
+
+.monitorInch {
+    position: absolute;
+    height: 25%;
+    width: 48%;
+    top: 25%;
+}
+
+.monitorCompare {
+    position: absolute;
+    top: 60%;
+}
+
+.sizeMoni {
+    position: absolute;
+    top: 20%;
+    left: 2%;
+}
+
+.inchMenu {
+    position: absolute;
+    top: 20%;
+    left: 25%;
+    width: 75%;
+}
+
+.compareMoni {
+    margin-top: 5%;
+}
+
+.compareMoni ul li {
+    width: 100%;
+}
+
+.rightArea ul {
+    width: 100%;
+}
+
+.rightArea ul li{
+    display: inline-block;
+    width: 25%;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-bottom: 5%;
+}
+
+.rightArea input[type=text] {
+    width: 75%;
+    line-height: normal;
+    border: 0;
+    border: 1px solid #202020;
+    border-radius: 5px;
+    outline-style: none;
+    text-align: center;
+    font-size: 1.142em;
+    margin-bottom: 3%;
+    margin-left: 3%;
+}
+
+.rightArea input[type='radio']+label {
+    content:'';
+    display:inline-block;
+    height: 2.25em;
+    width:100%;
+    vertical-align: middle;
+    margin: 0;
+    background-color: white;
+    color: black;
+    border: 1px solid #202020;
+    border-radius: 5px;
+    margin-right: 5%;
+    line-height: 225%;
+    text-align: center;
+}
+
+.rightArea input[type='radio']:checked+label {
+    background-color: #d81100;
+    color: white;
+    border: 1px solid #d81100;
+    border: 0;
+}
+
+.inchMenu input[type=text] {
+    height: 2em;
+    width: 90%;
+}
+
+.monitorCompare {
+    width: 50%;
+}
+
+.monitorCompare p {
+    margin-left: 2%;
+    width: 100%;
+}
+
+.destinationmenu {
+    float: left;
+    margin-left: 40%;
+    width: 100%;
+}
+
+.destinationmenu button {
+    background-color:#fff;
+    border-radius: 5px;
+	border:1px solid #202020;
+	display:inline-block;
+	color:#202020;
+	font-size:1.143em;
+	line-height:100%;
+	width:25%;
+    height: 2em; /* 초기화 / 비교하기 버튼 높이크기 % 조절 하지 못함 */
+    margin-bottom: 2%;
+    margin-left: 2%;
+	text-decoration:none;
+	text-align:center;
+}
+
+.destinationmenu button:active {
+    background-color:#d81100;
+    border: 1px solid #d81100;
+    color: #fff;
+}
+
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-color: white;
+    text-align: center;
+    border: 1px solid #202020;
+    border-radius: 5px;
+    width: 130%;
+    padding: 10%;
+}
+
+select::-ms-expand {
+    display: none;
+}
+
+hr {
+    color: #DCDCDD;
+    height: 1px;
+    width: 100%;
+    visibility: visible;
+    position: relative;
+    margin-bottom: 3%;
+    margin-top: 3%;
+}

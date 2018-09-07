@@ -1,0 +1,596 @@
+/*layout setting*/
+.zeyo_wrapper{ position:relative;	
+	width:100%;
+	width:100vw; 
+	height:100%;
+	display:table;}
+
+.zeyo_wrapper #zeyo_BG{
+	position:fixed; 
+	z-index:10; 
+	top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+	overflow:hidden;
+	background:#cccccc;
+	opacity:0.7;
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
+	/*cursor: pointer; 바탕화면 클릭 시 재요 꺼짐 기능 활성화*/}
+	
+.zeyo_wrapper #tablet_Container{
+	position:fixed;
+	z-index:20; 
+ 	left:20%;
+  	top: 50%;
+    margin-top: -18%;
+	width:60%;
+  	width:60vw;
+	height:70%;
+  	height:35vw;
+	}
+.zeyo_wrapper #tutorialArea{
+	}
+
+/*popupArea*/
+#tablet_Container #tabletLayout{
+	position:absolute;
+	left:0px;
+	right:0px;
+	bottom:0;
+  	top:0px;
+	z-index:30;
+    background: #202020;
+    border-radius: 40px;
+    -ms-overflow-style: none;
+	}
+
+#tablet_Container .conwrap{
+	width: 100%;
+    height: 100%;
+	overflow:hidden;
+}
+	
+
+/*side menu*/
+#zeyo_menu_left{
+	width:8%;
+	height:100%;
+	position: absolute;
+    top: 0;
+    left: 0;
+	overflow: hidden;
+	}
+#zeyo_menu_left .zeyoMenu img{
+	max-width:90%;
+    width: 40%;
+    padding-top:20%;
+}
+#zeyo_menu_left .zeyoMenu{
+    padding:2%;
+}
+#zeyo_menu_left .logo_svg{ 
+max-width:80%;
+}
+#size_menu_right .closeBt img{
+width: 40%;
+}
+#size_menu_right{
+	width:8%;
+	height:100%;
+	position: absolute;
+    top: 0;
+    right: 0;
+	overflow:hidden;
+	}
+
+.zeyo_menu a p{
+	font-size:12px;
+}
+#size_menu_right .zeyoicon_svg {
+	max-width: 65%;
+    width: 100%;
+    max-height: 55%;
+    height: 100%;
+}
+.zeyo_menu ul{    
+	text-align: center;
+    vertical-align: middle;
+	height:100%;
+	padding-top:20%;}
+	
+.zeyo_menu ul li{
+	display: inline-block;
+	width:100%;
+	font-size:18px;
+	height:13%;
+    color: #FFF;
+    padding-top: 10%;
+    }
+.zeyo_menu ul li.zeyoMenu img {
+    max-width: 100%;
+}
+.zeyo_menu ul li.zeyoMenu:hover,
+.zeyo_menu ul li.zeyoMenu:focus
+{
+    background-color: #d81100;
+}
+.zeyo_menu ul li a{
+	color: #FFF;
+	}
+
+.zeyo_menu .firstBt{
+margin-bottom:100%;
+}
+#size_menu_right .fistBt:hover,
+#size_menu_right .fistBt:focus
+{
+}
+/*content Area*/		
+.conwrap .contentArea{ 
+	position:relative;
+	z-index:40;
+	top:3.0303%;
+	bottom:3.0303%;
+	width: 84%;
+	height: 93.9394%;
+	background-color:#FFF; 
+	margin:0 auto;
+    overflow: hidden;
+}		
+
+.conwrap .contentArea .topArea{
+	width:100%;
+	height:90%;
+	padding: 3% 3% 0;
+	overflow:hidden;
+		
+}
+
+.conwrap .contentArea .topArea > div {
+	height:100%;
+	}
+	
+.conwrap .contentArea .topArea .shop_prd{
+	width:22%;
+}
+.conwrap .contentArea .topArea .com_prd{
+	width:22%;
+	}
+.contentArea .topArea .compareArea{
+	position:relative;
+	width:56%;
+	height:100%;
+	overflow:hidden;
+	}	
+.conwrap .contentArea .topArea .shop_prd .productInfo{
+	border: 5px solid #000;
+	padding: 2%;
+	
+	}
+.conwrap .contentArea .topArea .com_prd .productInfo{
+	border: 5px dashed #888888;
+	background-color:#DCDCDD;
+	padding: 2%;
+	}
+	
+.conwrap .contentArea .topArea .productInfo .whbg{
+	background-color:#FFF;	
+	border-radius: 20px;
+	width:100%;
+	height:100%;
+	padding:3%;
+}
+.conwrap .contentArea .topArea .productInfo{
+	width:100%;
+	height:34%;
+    border-radius: 20px;
+	overflow: hidden;
+	}
+.conwrap .contentArea .topArea .infobox{
+    height: 60%;
+    overflow: hidden
+}
+.conwrap .contentArea .topArea .productInfo ul{
+    display: inline-block;
+	margin-top:3%;
+    width: 40%;
+    height:100%;
+    text-align: center;
+	}	
+.conwrap .contentArea .topArea .productInfo .ProName{
+	color:#888888;
+    font-weight: 400;
+    font-size:12px;
+}
+.conwrap .contentArea .topArea .productInfo .brandName{
+	font-size:16px;
+	font-weight:800;
+	color:#000;
+	}
+.conwrap .contentArea .topArea .imgBx{
+	height: 100%;
+    width: 50%;
+    overflow: hidden;
+    vertical-align: middle;
+ }
+ 
+/*shop product*/	 
+
+.conwrap .contentArea .topArea .shop_prd .shop_prd_img{
+	max-width:100%;
+	max-height:100%;
+}
+
+.conwrap .contentArea .topArea .shop_prd ul {
+}
+
+.conwrap .contentArea .topArea .shop_prd ul::after {
+	content:''; 
+    display:block; 
+    clear:both;
+}
+.conwrap .contentArea .topArea .shop_prd ul li{
+	vertical-align:middle;
+}
+
+
+/*compare product*/	 
+
+.conwrap .contentArea .topArea .com_prd::after{
+	content:''; display:block; clear:both;	
+}
+
+		
+.conwrap .contentArea .topArea .com_prd .shop_prd_img{
+	max-width:100%;	
+	max-height: 100%;
+}
+
+.conwrap .contentArea .topArea .com_prd ul{
+	text-align: center;
+	
+}
+.conwrap .contentArea .topArea .com_prd ul::after {
+	content:''; display:block; clear:both;
+}
+.conwrap .contentArea .topArea .com_prd ul li{
+	vertical-align:middle;
+}
+.conwrap .contentArea .topArea .com_prd ul .guideLine{
+	display:inline-block;
+	width:30%;
+	border-top:2px dashed #888889;
+	height:1px;
+	}
+.conwrap .contentArea .topArea .sizeBar{
+	max-width:100%;
+	
+}
+
+.conwrap .contentArea .topArea .sizeBar .sizeBox{
+    height: 100%;
+    margin-top:10%;
+    border-radius: 5px;
+    width:100%;
+    background-color: #202020;
+	}
+.conwrap .contentArea .topArea .sizeBar .sizeBox select {
+    border: none;
+    -webkit-appearance:none; /* 화살표 없애기 for chrome*/ 
+    -moz-appearance:none; /* 화살표 없애기 for firefox*/ 
+    appearance:none; /* 화살표 없애기 공통*/
+	background:url(../img/optAllow.png) no-repeat 90% 50%;
+    background-size:10%;
+	color:#FFF;
+	width:100%;
+    padding: 5%;
+    outline: none;
+    font-size: 12px
+}
+.conwrap .contentArea .topArea .sizeBar .sizeBox select::-ms-expand{ 
+    display:none; /* 화살표 없애기 for IE10, 11*/ }
+.topArea .sizeBar .sizeBox select option{
+	outline:none;
+    background-color:#202020;
+	color:#FFF;
+    border:none;
+}
+.topArea .sizeBar .sizeBox select:hover{
+    background-color: #d81100;
+}
+	
+
+/*compare Area*/
+
+.contentArea .topArea .compareArea::after {
+	content:''; display:block; clear:both;
+}
+
+.contentArea .topArea .compareArea #backSvgBx {
+	position:absolute;
+	z-index:50;
+	top:15%;
+    right:0;
+    left:0;
+	max-width:100%;
+	max-height:100%;
+	text-align:center;
+	}
+.contentArea .topArea .compareArea #backSvgBx svg{
+	max-width:100%;
+	max-height:100%;
+    width: 100%;
+    height: 100%;
+	}
+
+.contentArea .topArea .compareArea #frontSvgBx{
+	position:absolute;
+	z-index:51;
+	top:15%;
+    right:0;
+    left:0;
+	max-width:100%;
+	max-height:100%;
+	text-align:center;
+}
+
+.contentArea .topArea .compareArea #frontSvgBx svg{
+	max-width:100%;
+	max-height:100%;
+	width: 80%;
+    height: 80%;
+}
+
+
+
+/*Bottom Area*/
+.conwrap .contentArea .bottomArea{
+	width:100%;
+	height:10%;
+}
+.conwrap .contentArea .bottomArea .botLeft{
+	width:33.3%;
+	height:100%;
+}
+.conwrap .contentArea .bottomArea .botCenter{
+	width:33.3%;
+	height:100%;
+	text-align:center;
+}
+.conwrap .contentArea .bottomArea .botCenter p{
+	margin:0 auto;
+	font-weight:800;
+}
+.conwrap .contentArea .bottomArea .botCenter #recom_size{
+	color:#d81100;
+	font-size:24px;
+	font-weight:800;
+}
+
+.conwrap .contentArea .bottomArea .botRight{
+	width:33.3%;
+	height:100%;
+}
+
+.conwrap .contentArea .bottomArea .botRight .compareBt{
+    max-width: 100%;
+    max-height: 100%;
+    height:80%;
+    margin: 0 auto;
+}
+.conwrap .contentArea .bottomArea .botRight .compareBt p {
+  overflow: hidden;
+  height: 100%;
+}
+
+.conwrap .contentArea .bottomArea .botRight .compareBt .comparetxt{
+	font-weight:800;
+	text-align:left;
+    max-width:60%;
+    vertical-align: middle;
+}
+/* The switch - the box around the slider */
+.conwrap .contentArea .bottomArea .botRight .compareBt .switch {
+  position: relative;
+  display: inline-block;
+  width: 56px;
+  height: 30px;
+  vertical-align:middle;
+  margin-left: 5%;
+}
+ 
+/* Hide default HTML checkbox */
+.conwrap .contentArea .bottomArea .botRight .compareBt .switch input {display:none;}
+ 
+/* The slider */
+.conwrap .contentArea .bottomArea .botRight .compareBt .slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #dcdcdd;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+ 
+.conwrap .contentArea .bottomArea .botRight .compareBt .slider:before {
+  position: absolute;
+  content: "";
+  height: 22px;
+  width: 22px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+ 
+.conwrap .contentArea .bottomArea .botRight .compareBt input:checked + .slider {
+  background-color: #d81100;
+}
+ 
+.conwrap .contentArea .bottomArea .botRight .compareBt input:focus + .slider {
+  box-shadow: 0 0 1px #d81100;
+}
+ 
+.conwrap .contentArea .bottomArea .botRight .compareBt input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+ 
+/* Rounded sliders */
+.conwrap .contentArea .bottomArea .botRight .compareBt .slider.round {
+  border-radius: 34px;
+}
+ 
+.conwrap .contentArea .bottomArea .botRight .compareBt .slider.round:before {
+  border-radius: 50%;
+}
+ 
+
+
+/* Media Query */
+
+@media screen and (max-width:1440px){
+
+    #zeyo_menu_left .zeyoMenu{
+    }
+    .zeyo_menu a p{
+        font-size:11px;
+    }
+
+    .zeyo_menu ul{ 
+        }
+
+    .zeyo_menu ul li{
+        width:100%;
+        }
+
+    .zeyo_menu .firstBt{
+    }
+
+    .conwrap .contentArea .topArea .productInfo .brandName {
+        font-size: 14px;}
+    .conwrap .contentArea .topArea .productInfo .ProName {
+        font-size: 11px;}
+    .conwrap .contentArea .topArea .sizeBar .sizeBox {
+        height: 100%;
+    }
+
+    .conwrap .contentArea .topArea .sizeBar .sizeBox select {
+        font-size: 11px;
+        }
+
+    .conwrap .contentArea .bottomArea .botCenter #recom_size {
+        font-size: 20px;
+        font-weight: 800; }
+    .conwrap .contentArea .bottomArea .botRight .compareBt .comparetxt {
+        padding:3%;
+        font-size:14px;}
+
+    .conwrap .contentArea .bottomArea .botRight .compareBt .switch {
+      width: 54px;
+      height: 28px;
+    }
+
+    .conwrap .contentArea .bottomArea .botRight .compareBt .slider:before {
+      height: 20px;
+      width: 20px;
+      left: 4px;
+      bottom: 4px;}
+
+    .conwrap .contentArea .bottomArea .botRight .compareBt input:checked + .slider:before {
+      -webkit-transform: translateX(26px);
+      -ms-transform: translateX(26px);
+      transform: translateX(26px);
+    }    
+
+    
+}/*media(max-width:1440px)*/
+
+@media screen and (max-width:1250px){
+    .zeyo_menu a p {
+            font-size: 10px;}
+    .conwrap .contentArea .topArea .productInfo .brandName {
+        font-size: 13px;}
+    .conwrap .contentArea .topArea .productInfo .ProName {
+        font-size: 10px;}
+     .conwrap .contentArea .bottomArea .botRight .compareBt .comparetxt {
+        padding:2%;}
+
+        .conwrap .contentArea .bottomArea .botRight .compareBt .switch {
+      width: 50px;
+      height: 24px;
+    }
+
+    .conwrap .contentArea .bottomArea .botRight .compareBt .slider:before {
+      height: 18px;
+      width: 18px;
+      left: 4px;
+      bottom: 4px;}
+
+
+    .conwrap .contentArea .bottomArea .botRight .compareBt input:checked + .slider:before {
+      -webkit-transform: translateX(26px);
+      -ms-transform: translateX(26px);
+      transform: translateX(26px);
+    }    
+    
+}/*media(max-width:1250px)End*/
+
+@media screen and (max-width: 1025px){
+    
+    #zeyo_menu_left .zeyoMenu{;
+    }
+    .zeyo_menu a p {
+        font-size: 9px;
+    }
+    #size_menu_right .zeyoicon_svg {
+        max-width: 60%;
+        max-height: 60%;
+    }
+    .zeyo_menu ul{    
+        text-align: center;
+        vertical-align: middle;
+        height:100%;}
+
+    .zeyo_menu ul li{
+
+        }
+        .zeyo_menu ul li p {
+        }    
+        .conwrap .contentArea .topArea .productInfo .brandName {
+        font-size:;}
+        .conwrap .contentArea .topArea .productInfo .ProName {
+        font-size: 8px;}
+        .conwrap .contentArea .topArea .sizeBar .sizeBox select {
+        font-size: 10px;
+        }    
+       .conwrap .contentArea .bottomArea .botRight .compareBt .comparetxt {
+        padding: 0;
+        max-width: 60%;
+        font-size:14px;}
+        .conwrap .contentArea .bottomArea .botCenter p {
+        font-size:16px;
+    }
+        .conwrap .contentArea .bottomArea .botRight .compareBt .switch {
+      width: 48px;
+      height: 22px;
+    }
+
+    .conwrap .contentArea .bottomArea .botRight .compareBt .slider:before {
+      height: 16px;
+      width: 16px;
+      left: 4px;
+      bottom: 4px;}
+
+    .conwrap .contentArea .bottomArea .botRight .compareBt input:checked + .slider:before {
+      -webkit-transform: translateX(26px);
+      -ms-transform: translateX(26px);
+      transform: translateX(26px);
+    }   
+}

@@ -1,0 +1,38 @@
+.zeyo_mConwrap {
+    padding: 5%;
+}
+
+.sizeTitle {
+    font-weight: bold;
+    font-size: 1.42em;
+    text-align: center;
+    margin-bottom: 15%;
+}
+
+.topArea p {
+    font-weight: bold;
+    font-size: 1.14em;
+    text-align: center;
+}
+
+.topArea {
+    margin-bottom: 10%;
+}
+
+.imgExplain {
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+
+.imgExplain img {
+    width: 70%;
+    height: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.textExplain {
+    text-align: center;
+    font-weight: bold;
+}

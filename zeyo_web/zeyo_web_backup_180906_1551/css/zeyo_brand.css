@@ -1,0 +1,360 @@
+
+/* Survey Area */
+
+.contentArea .titlearea {
+    float:left;
+    width:100%;
+    max-width: 100%;
+    max-height: 20%;
+    text-align: center;
+    line-height: 250%;
+    margin-bottom: 1%;
+}
+
+.contentArea .titlearea img {
+    background-color: rgba(0,0,0,0);
+}
+
+.contentArea .titlearea .col label{
+    line-height: 250%;
+    font-size: 1.143em;
+}
+
+.contentArea .titlearea #title {
+    margin-left: 27%;
+    font-size:2.143em;
+	font-weight:bold;
+	color:#000;
+}
+
+.contentArea .titlearea .col {
+    float:left;
+    padding:0;
+}
+
+.contentArea .titlearea .backicon {
+    vertical-align: middle;
+}
+
+.contentArea .hwaForm{
+    margin-bottom: 15%;
+}
+
+.contentArea .titlearea .titlebutton #backbutton {
+    width: 40px;
+    height: 40px;
+    background: white;
+}
+
+.contentArea .surveyradio {
+    margin-top: 5%;
+}
+
+/* brandarea */
+
+.contentArea .leftbrandarea {
+    float:left;
+    width: 50%;
+}
+
+.contentArea .rightbrandarea {
+    float:left;
+    width: 50%;
+}
+
+input[type='radio'] {
+    display: none;
+}
+
+
+label {
+    text-align: center;
+}
+
+input[type='radio']+label {
+    content:'';
+    display:inline-block;
+    height: 2.5em;
+    width:30%;
+    vertical-align: middle;
+    margin: 0;
+    background-color: white;
+    color: black;
+    border: 1px solid #202020;
+    border-radius: 5px;
+    margin-right: 5%;
+    line-height: 250%;
+}
+
+input[type='radio']:checked+label {
+    background-color: #d81100;
+    color: white;
+    border: 1px solid #d81100;
+    border: 0;
+}
+
+.brandBtn input[type='radio']+label {
+	background-color:#fff;
+    border-radius: 5px;
+	border:1px solid #202020;
+	display:inline-block;
+	color:#202020;
+	font-size:1.143em;
+	line-height:200%;
+	width:20%;
+    height: 2em;
+    margin: 3%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 5%;
+	text-align:center;
+}
+
+.brandBtn input[type='radio']:checked+label {
+    background-color: #d81100;
+    color: white;
+    border: 1px solid #d81100;
+    border: 0;
+}
+.contentArea .brandarea .textBrand .textInfo{
+    margin-top: 2%;
+}
+
+.contentArea .brandarea .divideMenu {
+    margin-top: 7%;
+}
+
+.contentArea .brandBtn {
+    margin-top: 5%;
+}
+
+.contentArea .brandBtn button {
+	background-color:#fff;
+    border-radius: 5px;
+	border:1px solid #202020;
+	display:inline-block;
+	color:#202020;
+	font-size:1.143em;
+	line-height:200%;
+	width:24%;
+    height: 2em;
+    margin: 3%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+	text-decoration:none;
+	text-align:center;
+}
+
+.contentArea .brandBtn button:active {
+    background-color:#d81100;
+    border: 1px solid #d81100;
+    color: #fff;
+}
+
+.contentArea .leftbrandarea .textInfo {
+    width: 60%;
+    line-height: normal;
+    border: 0;
+    border-bottom: 1px solid #202020;
+    outline-style: none;
+    margin-left: ;
+    text-align: center;
+    font-size: 16px;
+}
+
+.contentArea .leftbrandarea .catMenu {
+    margin-top: 5%;
+}
+
+.contentArea .leftbrandarea .selectcat select{
+    width: 65%;
+    padding: .5em .5em;
+    background: url(https://farm1.staticflickr.com/379/19928272501_4ef877c265_t.jpg) no-repeat 95% 50%;/* 네이티브 화살표 대체 */
+    border: 1px solid #202020;
+    border-radius: 5px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+.contentArea .leftbrandarea .selectcat select::-ms-expand { /* for IE 11 */
+    display: none;
+}
+
+.contentArea .brandarea .sizeMenu label {
+    line-height: 200%;
+    text-align: center;
+}
+
+.contentArea .brandarea .sizeMenu ul {
+    float: left;
+    padding: 0;
+    width: 26%
+}
+
+.contentArea .brandarea .sizeMenu ul li {
+    margin-bottom: 10%;
+    margin-right: 40%;
+}
+
+.contentArea .brandarea .leftbrandarea .sizeMenu input[type='radio']+label {
+    width:100%;
+    height:100%;
+    margin: 0;
+    background-color: white;
+    color: black;
+    border: 1px solid #202020;
+    border-radius: 5px;
+}
+
+.contentArea .brandarea .leftbrandarea .sizeMenu input[type='radio']:checked+label {
+    background-color: #d81100;
+    color: white;
+    border: 1px solid #d81100;
+    border: 0;
+}
+
+.contentArea .brandarea .rightbrandarea .bodysurveyarea .semititle {
+    text-align: right;
+    width: 13%;
+    float: left;
+}
+
+.contentArea .brandarea .leftbrandarea .semiNotice {
+    float: left;
+    font-size: 1.143em;
+    line-height: 200%;
+    width: 18%;
+    text-align: right;
+    margin-right: 3%;
+}
+
+.contentArea .brandarea .rightbrandarea .semiNotice {
+    font-size: 1.143em;
+    line-height: 200%;
+    text-align: center;
+}
+
+.contentArea .bodysurveyarea .surveyradio {
+    margin-bottom: 4%;
+}
+
+.contentArea .bodysurveyarea .surveyradio .surveySlider {
+    margin-left: 15%;
+}
+
+.contentArea .brandtitlearea {
+    margin-bottom: 2%;
+}
+
+
+
+.contentArea .semiNotice {
+    font-weight: bold;
+    text-align: center;
+}
+
+/* destinationmenu */
+
+
+.contentArea .brandarea .destinationmenu {
+    margin-top: 15%;
+    float: right;
+    width: 60%;
+}
+
+.contentArea .destinationmenu button {
+    background-color:#fff;
+    border-radius: 5px;
+	border:1px solid #202020;
+	display:inline-block;
+	color:#202020;
+	font-size:1.143em;
+	line-height:100%;
+	width:40%;
+    height: 2em; /* 초기화 / 비교하기 버튼 높이크기 % 조절 하지 못함 */
+    margin-left: 5%;
+	text-decoration:none;
+	text-align:center;
+}
+
+.contentArea .destinationmenu button:active {
+    background-color:#d81100;
+    border: 1px solid #d81100;
+    color: #fff;
+}
+
+/* Size Menu  */
+
+.contentArea .sizeMenu {
+    padding: 2%;
+}
+
+/* Slide Bar */
+
+.contentArea .sliderDefault input[type=range] {
+    -webkit-appearance: none;
+    width: 100%;
+    background: #dcdcdd;
+    border: 1px solid #dcdcdd;
+    border-radius: 10px;
+}
+
+.contentArea .sliderDefault input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+}
+
+.contentArea .sliderDefault input[type=range]::focus {
+    outline: none;
+}
+
+.contentArea .sliderDefault input[type=range]::ms-track {
+    width: 100%;
+    cursor: pointer;
+    background: #dcdcdd;
+    background-color: #dcdcdd;
+    color: transparent;
+}
+
+.contentArea .sliderDefault input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    border: transparent;
+    height: 20px;
+    width: 16px;
+    border-radius: 5px;
+    background-image: url("../img/redpointer.svg");
+    cursor: pointer;
+    margin-top: -14px;
+}
+
+/* All the same stuff for Firefox */
+.contentArea .sliderDefault input[type=range]::-moz-range-thumb {
+    border: transparent;
+    height: 20px;
+    width: 16px;
+    border-radius: 5px;
+    background-image: url("../img/redpointer.svg");
+    cursor: pointer;
+    margin-top: -14px;
+}
+
+/* All the same stuff for IE */
+.contentArea .sliderDefault input[type=range]::-ms-thumb {
+    border: transparent;
+    height: 20px;
+    width: 16px;
+    border-radius: 5px;
+    background-image: url("../img/redpointer.svg");
+    cursor: pointer;
+    margin-top: -14px;
+}
+
+/* Brand Slider */
+
+.contentArea .brandarea .surveySlider input[type=range] {
+    float: left;
+    margin-left: 15%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    width: 80%
+}

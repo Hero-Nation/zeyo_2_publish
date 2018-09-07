@@ -1,0 +1,161 @@
+.botArea .topA a{
+    width: 90%;
+    height: 12.5%;
+    position: absolute;
+    top: 12.5%;
+    left: 5%;
+    background-color: #202020;
+    border: 0;
+    border-radius: 10px;
+    color: white;
+}
+
+.botArea #arrow {
+    transform: rotate(-90deg);
+    position: absolute;
+    left: 90%;
+    top: 50%;
+}
+
+.botArea #logo {
+    width: 7em;
+    height: 7em;
+    position: absolute;
+    top: 10%;
+    left: 5%;
+}
+
+.botArea .topA p {
+    width: 100%;
+}
+
+.botArea .logoText {
+    position: absolute;
+    top: 32.5%;
+    left: 35%;
+}
+
+.newCloth .logoText {
+    color: #202020;
+    font-weight: bold;
+}
+
+.newCloth .indexImg {
+    width: 7em;
+    height: 7em;
+    position: absolute;
+    top: 10%;
+    left: 5%;
+}
+
+.newCloth .btEdit {
+    position: absolute;
+    top: 0%;
+    right: 10%;
+    width: 2em;
+    height: 2em;
+}
+
+.newCloth .btClose {
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    width: 2em;
+    height: 2em;
+}
+/*
+
+.newCloth .favCb input[type=checkbox] {
+    display: none;
+}
+
+.newCloth .favCb input[type=checkbox]+label {
+    display: inline-block;
+    cursor: pointer;
+    position: absolute;
+    top: 80%;
+    right: 5%;
+}
+
+.newCloth .favCb input[type=checkbox]+label:before {
+    content:"";
+    display: inline-block;
+    background: url(../img/star.png) no-repeat;
+    vertical-align: middle;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #f00;
+}
+
+.newCloth .favCb input[type=checkbox]:checked+label:before {
+    content:"";
+    display: inline-block;
+    background-image: url(../img/star.png);
+    background-color: #f00;
+}
+*/
+
+.newCloth .favCb input[type=checkbox] {
+    display: none;
+}
+
+.newCloth .favCb .ckCb {
+    background-image: url(../img/star.png);
+    background-position: left center;
+    background-size: auto 100%;
+    width: 20px;
+    height: 20px;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 75%;
+    right: 3%;
+}
+
+.newCloth .favCb input[type=checkbox]:checked+.ckCb {
+    background-image: url(../img/star_ck.png);
+}
+
+#new_1{
+    width: 90%;
+    height: 12.5%;
+    position: absolute;
+    top: 27.5%;
+    left: 5%;
+    background-color: #fff;
+    border: 1px solid #202020;
+    border-radius: 10px;
+}
+
+#new_2{
+    width: 90%;
+    height: 12.5%;
+    position: absolute;
+    top: 42.5%;
+    left: 5%;
+    background-color: #fff;
+    border: 1px solid #202020;
+    border-radius: 10px;
+}
+
+#new_3{
+    width: 90%;
+    height: 12.5%;
+    position: absolute;
+    top: 57.5%;
+    left: 5%;
+    background-color: #fff;
+    border: 1px solid #202020;
+    border-radius: 10px;
+}
+
+#new_4{
+    width: 90%;
+    height: 12.5%;
+    position: absolute;
+    top: 72.5%;
+    left: 5%;
+    background-color: #fff;
+    border: 1px solid #202020;
+    border-radius: 10px;
+}
+

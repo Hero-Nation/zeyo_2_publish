@@ -1,0 +1,41 @@
+.history {
+    padding 5%;
+}
+
+.bigFont {
+    font-size: 1.571em;
+}
+
+.semiTitle {
+    color:black;
+    font-size: 1.286em;
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    white-space: nowrap;
+}
+
+.selectcat select{
+    width: 90%;
+    height: 6em;
+    padding: .5em .5em;
+    background: url(https://farm1.staticflickr.com/379/19928272501_4ef877c265_t.jpg) no-repeat 95% 50%;/* 네이티브 화살표 대체 */
+    border: 1px solid #202020;
+    border-radius: 5px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin-left: 5%;
+    margin-bottom: 2%;
+}
+
+select::-ms-expand { /* for IE 11 */
+    display: none;
+}
+
+.selwrap {
+    margin-top: 15%;
+}

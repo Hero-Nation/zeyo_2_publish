@@ -1,0 +1,143 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=3.0">
+    <style type="text/css">
+	@-ms-viewport { width: device-width;}
+	@-o-viewport { width: device-width;}
+	@viewport { width: device-width;}
+	</style>
+	<title>ZEYO_POPUP</title>
+	<link rel="stylesheet" type="text/css" href="css/layout.css"/>
+	<link rel="stylesheet" type="text/css" href="css/common.css"/>
+	<link rel="stylesheet" type="text/css" href="css/nanumsquare.css"/>
+    <link rel="stylesheet" type="text/css" href="css/zeyo_brand_depth_1.css"/>
+     <!-- IE8 support for HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+    <div class="zeyo_mWrap">
+            <header class="zeyo_mheader">
+                <ul>
+                <li class="zeyo_mMenu">
+                    <a href="#none">
+                        <img src="img/menu.svg"/>
+                    </a>
+                </li>
+                <li class="mLogo">
+                     <a href="#none">
+                    <img src="img/whiteLogo.svg"/>
+                    </a>
+                </li>
+                <li class="mClose">
+                	<a href="#none" class="closeBt">
+                        <img src="img/Xbt.svg" class="Xbt_svg" />
+                    </a>
+                </li>
+                </ul>
+            </header>
+            <div class="zeyo_mConwrap">
+                <div class="brandArea">
+                    <div class="brandChoice">
+                        <div class="textBrand">
+                            <div class="semititle">브랜드</div>
+                            <input type="text" class="textInfo" id="ageInfo">
+                        </div>
+                        <div class="brandBtn">
+                            <input id="uni" type="radio" name="brand"value="man"/><label for="uni">유니클로</label>
+                            <input id="zara" type="radio" name="brand" value="zara"/><label for="zara">ZARA</label>
+                            <input id="hnm" type="radio" name="brand" value="hnm"/><label for="hnm">H&amp;M</label>
+                            <input id="nike" type="radio" name="brand" value="nike"/><label for="nike">NIKE</label>
+                            <input id="zio" type="radio" name="brand" value="zio"/><label for="zio">지오다노</label>
+                            <input id="adi" type="radio" name="brand" value="adi"/><label for="adi">아디다스</label>
+                        </div>
+                    </div>
+                    <p class="divideMenu"></p>
+                    <div class="surveyradio">
+                        <div class="gendersurvey">
+                            <div class="semititle">성별</div>
+                            <input id="mansel" type="radio" name="gender" checked="checked" value="man"/><label for="mansel">남성</label>
+                            <input id="womansel" type="radio" name="gender" value="woman"/><label for="womansel">여성</label>
+                        </div>
+                    </div><!-- surveyradio -->
+                    <p class="divideMenu"></p>
+                    <div class="catMenu">
+                        <div class="semititle">카테고리</div>
+                        <div class="selectcat">
+                            <select name="sizeOption">
+                                <option value="TOP(Sizeoption_01)">TOP(Sizeoption_01)</option>
+                                <option value="TOP(Sizeoption_02)">TOP(Sizeoption_02)</option>
+                                <option value="TOP(Sizeoption_03)">TOP(Sizeoption_03)</option>
+                                <option value="TOP(Sizeoption_04)">TOP(Sizeoption_04)</option>
+                            </select>
+                        </div>
+                    </div><!-- category menu -->
+                    <p class="divideMenu"></p>
+                    <div class="sizeMenu">
+                        <div class="semititle">사이즈</div>
+                        <form name="brandSize">
+                            <ul>
+                                <li>
+                                    <input id="xsSize" type="radio" name="brandSize" value="xsSize"/><label for="xsSize">XS</label>
+                                </li>
+                                <li>
+                                    <input id="sSize" type="radio" name="brandSize" value="sSize"/><label for="sSize">S</label>
+                                </li>
+                                <li>
+                                    <input id="mSize" type="radio" name="brandSize" value="mSize"/><label for="mSize">M</label>
+                                </li>
+                            </ul>
+                            <ul>
+                                <li>
+                                    <input id="lSize" type="radio" name="brandSize" value="lSize"/><label for="lSize">L</label>
+                                </li>
+                                <li>
+                                    <input id="xlSize" type="radio" name="brandSize" value="xlSize"/><label for="xlSize">XL</label>
+                                </li>
+                            </ul>
+                            <ul>
+                                <li>
+                                    <input id="xxlSize" type="radio" name="brandSize" value="xxlSize"/><label for="xxlSize">XXL</label>
+                                </li>
+                                <li>
+                                    <input id="xxxlSize" type="radio" name="brandSize" value="xxxlSize"/><label for="xxxlSize">XXXL</label>
+                                </li>
+                            </ul>
+                        </form>
+                    </div><!-- size menu -->
+                </div><!-- left survey area -->
+<!--
+            <div id="backbt">
+                <a href="#none">
+                <img src="img/backIcon.svg"/>
+                </a>
+            </div>
+-->
+            <div id="gobt">
+                <a href="#none">
+                <img src="img/goIcon.svg"/>
+                </a>
+            </div>
+                
+                
+            </div><!--//zeyo_mConwrap-->
+            <footer class="zeyo_mfooter">
+            	<ul id="zeyoMenu">
+                	 <li class="zeyoMenu"><a href="#none"><img src="img/zeyo_icon01.svg" class="zeyoicon_svg" /><p>신체재요</p></a></li>
+                     <li class="zeyoMenu"><a href="#none"><img src="img/zeyo_icon02.svg" class="zeyoicon_svg brandzeyo" /><p>브랜드재요</p></a></li>
+                     <li class="zeyoMenu"><a href="#none"><img src="img/zeyo_icon03.svg" class="zeyoicon_svg" /><p>상품재요</p></a></li>
+                     <li class="zeyoMenu"><a href="#none"><img src="img/zeyo_icon04.svg" class="zeyoicon_svg" /><p>사이즈재요</p></a></li>
+                     <li class="zeyoMenu"><a href="#none"><img src="img/zeyo_icon05.svg" class="zeyoicon_svg wardrobe" /><p>옷장</p></a></li>
+                </ul>
+            
+            </footer>
+    </div><!--//zeyo_mWrap-->
+
+</body>
+</html>

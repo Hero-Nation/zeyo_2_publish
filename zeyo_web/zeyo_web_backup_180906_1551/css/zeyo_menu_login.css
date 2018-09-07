@@ -1,0 +1,214 @@
+/* devide Area */
+
+.contentArea {
+    padding: 2%;
+}
+
+.contentArea .leftArea {
+    float: left;
+    width: 50%;
+}
+
+.contentArea .rightArea {
+    float: left;
+    width: 50%;
+}
+
+/* right Area */
+
+.getLoginText {
+    color:black;
+    font-size: 1.286em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    white-space: nowrap;
+}
+
+.getLoginText {
+    text-align: center;
+    position: absolute;
+    top: 25%;
+}
+
+.getLoginText .bigFont {
+    font-size: 1.571em;
+}
+
+.getLoginBox {
+    width: 45%;
+    height: 35%;
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    background-color: #202020;
+    border: 0;
+    border-radius: 10px;
+}
+
+.loginText {
+    color:white;
+    font-size: 1.14em;
+    position: absolute;
+    top: 20%;
+    left: 75%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    white-space: nowrap;
+}
+
+.loginID, .loginPW {
+    color:white;
+    font-size: 1.14em;
+    position: absolute;
+    left: 10%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    white-space: nowrap;
+}
+
+.loginID {
+    top: 45%;
+}
+
+.loginPW {
+    top: 65%;
+}
+
+.getIDPW {
+    width: 75%;
+    line-height: normal;
+    background: transtparent;
+    background-color: transparent;
+    border: 0;
+    border-bottom: 2px solid #fff;
+    outline-style: none;
+    margin-left: ;
+    text-align: center;
+    font-size: 1.14;
+}
+
+#getID, #getPW {
+    position: absolute;
+    left: 55%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    white-space: nowrap;
+}
+
+#getID {
+    top: 45%;
+}
+
+#getPW {
+    top: 65%;
+}
+
+.doSign {
+    color: white;
+    position: absolute;
+    left: 75%;
+    top: 85%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    white-space: nowrap;
+    font-size: 0.7em;
+}
+
+.doSign button {
+    color: white;
+    background-color: transparent;
+    border: 0;
+    text-decoration: none;
+    font-size: 0.7em;
+}
+
+.snsWrap {
+    color:black;
+    font-size: 1.14em;
+    position: absolute;
+    top: 60%;
+    left: 72%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    white-space: nowrap;
+    text-align: center;
+    width: 50%;
+}
+
+.snsBtWrap {
+    margin-top: 5%;
+}
+
+.snsBtWrap li {
+    display: inline-block;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.snsBtWrap .snsBt{
+    position: relative;
+}
+
+.snsBtWrap .snsBt img {
+    width: 5em;
+    height: 6em;
+    display: block;
+}
+
+.botArea a{
+    width: 45%;
+    height: 17.2%;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    background-color: #202020;
+    border: 0;
+    border-radius: 10px;
+}
+
+.botArea a {
+    color: white;
+}
+
+.botArea #arrow {
+    transform: rotate(-90deg);
+    position: absolute;
+    left: 90%;
+    top: 40%;
+}
+
+.botArea #logo {
+    width: 5em;
+    height: 5em;
+    position: absolute;
+    top: 6%;
+    left: 3%;
+}
+
+.botArea p {
+    width: 100%;
+    font-size: 1em;
+}
+
+.botArea .logoText {
+    position: absolute;
+    top: 26%;
+    left: 30%;
+}
+
+.getLoginBox input:focus {
+    outline: none;
+}
+
+.getLoginBox input[type=text] {
+    color : white;
+}

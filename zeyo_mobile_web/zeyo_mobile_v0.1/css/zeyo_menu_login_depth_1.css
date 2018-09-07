@@ -1,0 +1,82 @@
+.overlay {
+  position: absolute;
+  z-index: 10000;
+  bottom: 10%;
+  left: 0;
+  right: 70%;
+  background-color: rgba(20,20,20,0.9);
+  overflow: hidden;
+  width: 70%;
+  height: 81%;
+}
+
+.topMenu {
+    position: relative;
+    height: 23%;
+}
+
+.topText {
+    color:white;
+    font-size: 1.429em;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    white-space: nowrap;
+}
+
+.menuBt {
+    margin-left: 10%;
+}
+
+.menuBt img {
+    width: 30%;
+}
+
+.menuText {
+    float: right;
+    margin-top: 10%;
+    margin-right: 20%;
+    color: white;
+    font-weight: bold;
+    width: 40%;
+}
+
+.menuText div {
+    font-size: 1.14em;
+}
+
+.menuText_2 {
+    float: right;
+    margin-top: 10%;
+    margin-right: 15%;
+    color: white;
+    font-weight: bold;
+    width: 45%;
+}
+
+.menuText_2 div {
+    font-size: 1.429em;
+}
+
+hr {
+    color: #202020;
+    height: 1px;
+    width: 90%;
+    visibility: visible;
+    position: relative;
+    margin-bottom: 7%;
+    margin-top: 7%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.getLoginBox input:focus {
+    outline: none;
+}
+
+.getLoginBox input[type=text] {
+    color : white;
+}

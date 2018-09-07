@@ -1,0 +1,187 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=3.0">
+    <style type="text/css">
+	@-ms-viewport { width: device-width;}
+	@-o-viewport { width: device-width;}
+	@viewport { width: device-width;}
+	</style>
+	<title>ZEYO_POPUP</title>
+	<link rel="stylesheet" type="text/css" href="css/layout.css"/>
+	<link rel="stylesheet" type="text/css" href="css/common.css"/>
+	<link rel="stylesheet" type="text/css" href="css/nanumsquare.css"/>
+    <link rel="stylesheet" type="text/css" href="css/zeyo_brand.css"/>
+     <!-- IE8 support for HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+    <body>
+        <div class="zeyo_wrapper">
+            <div id="zeyo_BG">
+            </div><!--//BG-->
+            <div id="tutorialArea"></div>
+            <div id="tablet_Container">
+                <div id="tabletLayout">
+                    <div class="conwrap">
+                        <div id="zeyo_menu_left" class="zeyo_menu">
+                            <ul>
+                                <li class="firstBt"><a href="index.html"><img src="img/whiteLogo.svg" class="logo_svg" /></a></li>
+                                <li class="zeyoMenu"><a href="#none"><img src="img/menu.svg" class="menu_svg" /><p>메뉴</p></a></li>
+                                <li class="zeyoMenu"><a href="#none"><img src="img/login.svg" class="login_svg" /><p>로그인</p></a></li>
+                            </ul>
+                        </div><!--//zeyo_menu_left-->
+                        <div class="contentArea">
+                            <div class="sizeMenu">
+                                <div class="titlearea brandtitlearea">
+                                    <div class="col" style="">
+                                        <a href="./index.html"><img class="backicon" src="./img/backIcon-2.svg"/><label id="backbutton"> 돌아가기</label></a>
+                                    </div>
+                                    <div id="title" class="col">
+                                        브랜드재요
+                                    </div>
+                                </div>
+                                <div class="brandarea">
+                                    <div class="leftbrandarea">
+                                        <div class="brandChoice">
+                                            <div class="textBrand">
+                                                <div class="semiNotice">브랜드</div>
+                                                <input type="text" class="textInfo" id="ageInfo">
+                                            </div>
+                                            <div class="brandBtn">
+                                                <input id="uni" type="radio" name="brand"value="man"/><label for="uni">유니클로</label>
+                            <input id="zara" type="radio" name="brand" value="zara"/><label for="zara">ZARA</label>
+                            <input id="hnm" type="radio" name="brand" value="hnm"/><label for="hnm">H&amp;M</label>
+                            <input id="nike" type="radio" name="brand" value="nike"/><label for="nike">NIKE</label>
+                            <input id="zio" type="radio" name="brand" value="zio"/><label for="zio">지오다노</label>
+                            <input id="adi" type="radio" name="brand" value="adi"/><label for="adi">아디다스</label>
+                                            </div>
+                                        </div>
+                                        <p class="divideMenu"></p>
+                                        <div class="surveyradio">
+                                            <div class="gendersurvey">
+                                                <div class="semiNotice">성별</div>
+                                                <input id="mansel" type="radio" name="gender" checked="checked" value="man"/><label for="mansel">남성</label>
+                                                <input id="womansel" type="radio" name="gender" value="woman"/><label for="womansel">여성</label>
+                                            </div>
+                                        </div><!-- surveyradio -->
+                                        <p class="divideMenu"></p>
+                                        <div class="catMenu">
+                                            <div class="semiNotice">카테고리</div>
+                                            <div class="selectcat">
+                                                <select name="sizeOption">
+                                                    <option value="TOP(Sizeoption_01)">TOP(Sizeoption_01)</option>
+                                                    <option value="TOP(Sizeoption_02)">TOP(Sizeoption_02)</option>
+                                                    <option value="TOP(Sizeoption_03)">TOP(Sizeoption_03)</option>
+                                                    <option value="TOP(Sizeoption_04)">TOP(Sizeoption_04)</option>
+                                                </select>
+                                            </div>
+                                        </div><!-- category menu -->
+                                        <p class="divideMenu"></p>
+                                        <div class="sizeMenu">
+                                            <div class="semiNotice">사이즈</div>
+                                            <form name="brandSize">
+                                                <ul>
+                                                    <li>
+                                                        <input id="xsSize" type="radio" name="brandSize" value="xsSize"/><label for="xsSize">XS</label>
+                                                    </li>
+                                                    <li>
+                                                        <input id="sSize" type="radio" name="brandSize" value="sSize"/><label for="sSize">S</label>
+                                                    </li>
+                                                    <li>
+                                                        <input id="mSize" type="radio" name="brandSize" value="mSize"/><label for="mSize">M</label>
+                                                    </li>
+                                                </ul>
+                                                <ul>
+                                                    <li>
+                                                        <input id="lSize" type="radio" name="brandSize" value="lSize"/><label for="lSize">L</label>
+                                                    </li>
+                                                    <li>
+                                                        <input id="xlSize" type="radio" name="brandSize" value="xlSize"/><label for="xlSize">XL</label>
+                                                    </li>
+                                                </ul>
+                                                <ul>
+                                                    <li>
+                                                        <input id="xxlSize" type="radio" name="brandSize" value="xxlSize"/><label for="xxlSize">XXL</label>
+                                                    </li>
+                                                    <li>
+                                                        <input id="xxxlSize" type="radio" name="brandSize" value="xxxlSize"/><label for="xxxlSize">XXXL</label>
+                                                    </li>
+                                                </ul>
+                                            </form>
+                                        </div><!-- size menu -->
+                                    </div><!-- left survey area -->
+                                    <div class="rightbrandarea">
+                                        <div class="bodysurvey">
+                                            <p class="semiNotice">의류 구매시 신경쓰는 신체부위를 알려주세요.</p>
+                                            <div class="surveyradio">
+                                                <div class="semititle">어깨</div>
+                                                <div class="sliderDefault">
+                                                    <div class="surveySlider">
+                                                        <input type="range" value="20" min="0" max="100">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="surveyradio">
+                                                <div class="semititle">가슴</div>
+                                                <div class="sliderDefault">
+                                                    <div class="surveySlider">
+                                                        <input type="range" value="20" min="0" max="100">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="surveyradio">
+                                                <div class="semititle">팔길이</div>
+                                                <div class="sliderDefault">
+                                                    <div class="surveySlider">
+                                                        <input type="range" value="20" min="0" max="100">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="surveyradio">
+                                                <div class="semititle">배</div>
+                                                <div class="sliderDefault">
+                                                    <div class="surveySlider">
+                                                        <input type="range" value="20" min="0" max="100">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <p class="divideMenu"></p>
+                                            <p class="semiNotice">의류구매시 선호하는 핏을 알려주세요</p>
+                                            <div class="surveyradio">
+                                                <div class="semititle">핏</div>
+                                                <div class="sliderDefault">
+                                                    <div class="surveySlider">
+                                                        <input type="range" value="20" min="0" max="100">
+                                                    </div>
+                                                </div>
+                                            </div><!-- surveyradio -->
+                                            <div class="destinationmenu">
+                                                <button href="./shirts.html">&nbsp;&nbsp;초기화&nbsp;&nbsp;</button>
+                                                <button href="./shirts.html">비교하기</button>
+                                            </div><!-- destinationmenu -->
+                                        </div><!-- body survey -->
+                                    </div><!-- right survey Area -->
+                                </div><!-- Survey Area -->
+                            </div><!-- Size Area -->
+                        </div><!--//contentArea-->
+                        <div id="size_menu_right" class="zeyo_menu">
+                            <ul>
+                                <li class="firstBt"><a href="#none" class="closeBt"><img src="img/close.svg" class="close_svg" /><p>종료</p></a></li>
+                                <li class="zeyoMenu"><a href="#none"><img src="img/zeyo_icon01.svg" class="zeyoicon_svg" /><p>신체재요</p></a></li>
+                                <li class="zeyoMenu"><a href="#none"><img src="img/zeyo_icon02.svg" class="zeyoicon_svg" /><p>브랜드재요</p></a></li>
+                                <li class="zeyoMenu"><a href="#none"><img src="img/zeyo_icon03.svg" class="zeyoicon_svg" /><p>상품재요</p></a></li>
+                                <li class="zeyoMenu"><a href="#none"><img src="img/zeyo_icon04.svg" class="zeyoicon_svg" /><p>사이즈재요</p></a></li>
+                                <li class="zeyoMenu"><a href="#none"><img src="img/zeyo_icon05.svg" class="zeyoicon_svg" /><p>옷장</p></a></li>
+                            </ul>
+                        </div><!--//size_menu_right-->
+                    </div><!--//conwrap-->
+                 </div><!--//tabletLayout-->
+            </div><!--//zeyo_Container-->
+        </div><!--//zeyo_wrapper-->
+    </body>
+</html>
