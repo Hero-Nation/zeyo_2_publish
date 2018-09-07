@@ -44,8 +44,8 @@ hr {
     font-size: 1.143em;
     font-weight: bold;
     position: absolute;
-    top: 5%;
-    left: 35%;
+    top: 3%;
+    left: 33%;
     -webkit-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
@@ -57,19 +57,23 @@ hr {
     font-size: 1.5em;
     background-color: transparent;
     position: absolute;
-    top: 5%;
-    right: 5%;
+    bottom: 2%;
+    right: 40%;
     border: 0;
     text-decoration: none;
+}
+
+.moreBt a {
+    color: white;
 }
 
 /* overlay inner component */
 
 .botArea .topA a{
     width: 90%;
-    height: 12.5%;
+    height: 17%;
     position: absolute;
-    top: 12.5%;
+    top: 7%;
     left: 5%;
     background-color: #202020;
     border: 0;
@@ -81,35 +85,35 @@ hr {
     transform: rotate(-90deg);
     position: absolute;
     left: 90%;
-    top: 50%;
+    top: 45%;
 }
 
 .botArea #logo {
-    width: 7em;
-    height: 7em;
+    width: 5em;
+    height: 5em;
     position: absolute;
-    top: 10%;
+    top: 20%;
     left: 5%;
 }
 
 .botArea .topA p {
     width: 100%;
+    font-size: 1em;
 }
 
 .botArea .logoText {
     position: absolute;
-    top: 32.5%;
-    left: 35%;
+    top: 30%;
+    left: 30%;
 }
 
 .newCloth .logoText {
     color: #202020;
-    font-weight: bold;
 }
 
 .newCloth .indexImg {
-    width: 7em;
-    height: 7em;
+    width: 5em;
+    height: 5em;
     position: absolute;
     top: 10%;
     left: 5%;
@@ -184,9 +188,9 @@ hr {
 
 #new_1{
     width: 90%;
-    height: 12.5%;
+    height: 15%;
     position: absolute;
-    top: 27.5%;
+    top: 25%;
     left: 5%;
     background-color: #fff;
     border: 1px solid #202020;
@@ -195,7 +199,7 @@ hr {
 
 #new_2{
     width: 90%;
-    height: 12.5%;
+    height: 15%;
     position: absolute;
     top: 42.5%;
     left: 5%;
@@ -206,9 +210,9 @@ hr {
 
 #new_3{
     width: 90%;
-    height: 12.5%;
+    height: 15%;
     position: absolute;
-    top: 57.5%;
+    top: 60%;
     left: 5%;
     background-color: #fff;
     border: 1px solid #202020;
@@ -217,9 +221,9 @@ hr {
 
 #new_4{
     width: 90%;
-    height: 12.5%;
+    height: 15%;
     position: absolute;
-    top: 72.5%;
+    top: 77.5%;
     left: 5%;
     background-color: #fff;
     border: 1px solid #202020;
