@@ -12,8 +12,7 @@
 	<link rel="stylesheet" type="text/css" href="css/layout.css"/>
 	<link rel="stylesheet" type="text/css" href="css/common.css"/>
 	<link rel="stylesheet" type="text/css" href="css/nanumsquare.css"/>
-    <link rel="stylesheet" type="text/css" href="css/zeyo_login.css"/>
-    
+    <link rel="stylesheet" type="text/css" href="css/zeyo_mobile_body_depth_1.css"/>
      <!-- IE8 support for HTML5 elements and media queries -->
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -44,23 +43,52 @@
                 </ul>
             </header>
             <div class="zeyo_mConwrap">
-                <div class="getLoginText">
-                    <span class="bigFont">상품 재요</span> 서비스는<br>로그인이 필요한 서비스 입니다.
+            	<div class="topSurvey">
+                    <div class="semiNotice">신체 정보를 알려주세요.</div>
+                    <div class="surveyradio">
+                        <div class="gendersurvey">
+                            <span class="semititle">성별</span>
+                            <input id="mansel" type="radio" name="gender" checked="checked" value="man"/><label for="mansel">남성</label>
+                            <input id="womansel" type="radio" name="gender" value="woman"/><label for="womansel">여성</label>
+                        </div>
+                    </div><!-- surveyradio -->
+                </div><!-- Top Survey -->
+                <div class="hwaInfo">
+                    <div class="hwaForm">
+                        <span class="semititle">나이</span>
+                        <input type="text" class="textInfo" id="ageInfo">
+                        <div class="sliderDefault">
+                            <div class="hwaSlider">
+                                <input type="range" value="20" min="0" max="100">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hwaForm">
+                        <span class="semititle">키</span>
+                        <input type="text" class="textInfo" id="heightInfo">
+                        <div class="sliderDefault">
+                            <div class="hwaSlider">
+                                <input type="range" value="20" min="0" max="100">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hwaForm">
+                        <span class="semititle">몸무게</span>
+                        <input type="text" class="textInfo" id="weightInfo">
+                        <div class="sliderDefault">
+                            <div class="hwaSlider">
+                                <input type="range" value="20" min="0" max="100">
+                            </div>
+                        </div>
+                    </div>
+                </div><!-- slidebar -->
+            <div id="backbt">
+                <a href="#none">
+                <img src="img/backIcon.svg"/>
+                </a>
                 </div>
-                <div class="getLoginBox">
-                    <span class="loginText">
-                        현재쇼핑몰이름 로그인
-                    </span>
-                    <span class="loginID">ID</span>
-                    <input type="text" class="getIDPW" id="getID"/>
-                    <span class="loginPW">PW</span>
-                    <input type="text" class="getIDPW" id="getPW"/>
-                    <span class="doSign">
-                        <button id="signUP">회원가입</button>
-                        |
-                        <button id="findID">ID/PW찾기</button>
-                    </span>
-                </div>
+
+
             </div><!--//zeyo_mConwrap-->
             <footer class="zeyo_mfooter">
             	<ul id="zeyoMenu">
@@ -70,7 +98,7 @@
                      <li class="zeyoMenu"><a href="#none"><img src="img/zeyo_icon04.svg" class="zeyoicon_svg" /><p>사이즈재요</p></a></li>
                      <li class="zeyoMenu"><a href="#none"><img src="img/zeyo_icon05.svg" class="zeyoicon_svg wardrobe" /><p>옷장</p></a></li>
                 </ul>
-            
+
             </footer>
     </div><!--//zeyo_mWrap-->
 

@@ -12,7 +12,7 @@
 	<link rel="stylesheet" type="text/css" href="css/layout.css"/>
 	<link rel="stylesheet" type="text/css" href="css/common.css"/>
 	<link rel="stylesheet" type="text/css" href="css/nanumsquare.css"/>
-    <link rel="stylesheet" type="text/css" href="css/zeyo_size_print_3.css"/>
+    <link rel="stylesheet" type="text/css" href="css/zeyo_web_size_depth_4.css"/>
     
      <!-- IE8 support for HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -43,15 +43,53 @@
                             <div class="col">
                                 <a href="./index.html"><img class="backicon" src="./img/backIcon-2.svg"/><label id="backbutton"> 돌아가기</label></a>
                             </div>
-                            <div id="title" class="col">줄자프린트<p>줄자를 출력해서 만들어 보세요.</p></div>
+                            <div id="title" class="col">카드 VS 모니터<p>카드의 크기를 맞추어 모니터 사이즈를 알아보세요.</p></div>
+                            
+                            <div class="col topBt">
+                                <button id="rulerBt">모니터줄자</button>
+                            </div>
+                            <div class="col topBt">
+                                <button id="printBt">줄자프린트</button>
+                            </div>
                         </div>
-                        <div class="botArea">
-                            <div class="botText">
-                                <p>&#8251;모니터 크기와 배율에 따라 자동 조정 되고 있습니다.</p>
+                        <div class="leftArea">
+                            <div class="sliderArea">
+                                <div class="sliText">마우스로 드래그하여 카드의 크기를 맞춰주세요.</div>
+                                <div class="sliderDefault">
+                                    <input id="inchSlider" type="range" value="20" min="0" max="100">
+                                </div>
+                            </div>
+                            <div class="inchArea">
+                                <span>모니터 크기 : <span class="redFont">24.5 Inch</span></span>
+                            </div>
+                            <div class="cardArea">
+                                <div class="cardBox">
+                                    <span>A4용지 가로</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="rightArea">
+                            <div class="monitorCompare">
+                                <ul class="compareMoni">
+                                    <li><p>다른 물체로 측정</p></li>
+                                    <li>
+                                        <input type="radio" id="compCard" name="compareMoni"><label for="compCard">카드</label>
+                                    </li>
+                                    <li>
+                                        <input type="radio" id="compA4" checked="checked" name="compareMoni"><label for="compA4">A4용지</label>
+                                    </li>
+                                    <li>
+                                        <input type="radio" id="compBill" name="compareMoni"><label for="compBill">만원지폐</label>
+                                    </li>
+                                </ul>
                             </div>
                         </div>
                     </div>
-                    
+                    <div class="botArea">
+                        <div class="botText">
+                            <p>&#8251;모니터 크기와 배율에 따라 자동 조정 되고 있습니다.</p>
+                        </div>
+                    </div>
                 </div><!--//contentArea-->
       			<div id="size_menu_right" class="zeyo_menu">
                 	<ul>

@@ -12,7 +12,7 @@
 	<link rel="stylesheet" type="text/css" href="css/layout.css"/>
 	<link rel="stylesheet" type="text/css" href="css/common.css"/>
 	<link rel="stylesheet" type="text/css" href="css/nanumsquare.css"/>
-    <link rel="stylesheet" type="text/css" href="css/zeyo_size_depth_2.css"/>
+    <link rel="stylesheet" type="text/css" href="css/zeyo_mobile_size_depth_1.css"/>
      <!-- IE8 support for HTML5 elements and media queries -->
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -49,26 +49,56 @@
                         <p>가장 잘맞는 옷으로 비교하세요.</p>
                         <button>설명보기</button>
                     </div>
-                    <div class="explain">
-                        <div class="imgExplain">
-                            <img src="./img/goIcon.svg">
+                    <div class="brandChoice">
+                        <div class="textBrand">
+                            <div class="semititle">옷이름</div>
+                            <input type="text" class="textInfo" id="ageInfo">
                         </div>
-                        <div class="textExplain">
-                            <p>
-                                가나다라마바사아자차카타파하하하하하하만아알<br/>
-                                1)서울한강체 서울남산체 제주고딕 제주명조 제주한라산<br/>
-                                2)제주고딕제주명조제주한라산서울한강체<br/>
-                                3)제주명조제주명조제주한라산서울한강<br/>
-                                4)제주명조제주명조제주명조제주명조<br/>
-                            </p>
+                        <div class="brandBtn">
+                            <input id="uni" type="radio" name="brand"value="man" checked="checked"/><label for="uni">어께</label>
+                            <input id="zara" type="radio" name="brand" value="zara"/><label for="zara">가슴</label>
+                            <input id="hnm" type="radio" name="brand" value="hnm"/><label for="hnm">소매</label>
+                            <input id="nike" type="radio" name="brand" value="nike"/><label for="nike">총기장</label>
+                            <input id="zio" type="radio" name="brand" value="zio"/><label for="zio">소매통</label>
                         </div>
                     </div>
+                    <hr>
+                    <span class="semititle">어깨</span>
+                    <input type="text" class="textInfo" id="ageInfo">
+                    <div class="sliderDefault">
+                        <div class="hwaSlider">
+                            <input type="range" value="20" min="0" max="100">
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="surveyradio">
+                        <div class="compareTarget">
+                            <div class="semititle">물건으로 재요 : </div>
+                            <input id="card" type="radio" name="target" checked="checked" value="card"/><label for="card">카드</label>
+                            <input id="a4" type="radio" name="target" value="a4"/><label for="a4">A4용지</label>
+                        </div>
+                    </div><!-- surveyradio -->
+                    <div class="sizeInfo">
+                        <div id="widthForm">
+                            <span>가로 297mm&nbsp;&nbsp;X&nbsp;&nbsp;</span><input type="text"/>&nbsp;&nbsp;+&nbsp;&nbsp;<input type="text"/>
+                        </div>
+                        <div id="heightForm">
+                            <span>세로 297mm&nbsp;&nbsp;X&nbsp;&nbsp;</span><input type="text"/>&nbsp;&nbsp;+&nbsp;&nbsp;<input type="text"/>
+                        </div>
+                    </div>
+                    <hr>
+                    <span class="destinationmenu">
+                        <button href="./shirts.html">&nbsp;&nbsp;초기화&nbsp;&nbsp;</button>
+                        <button href="./shirts.html">비교하기</button>
+                    </span ><!-- destinationmenu -->
                 </div><!-- left survey area -->
+<!--
             <div id="backbt">
                 <a href="#none">
                 <img src="img/backIcon.svg"/>
                 </a>
             </div>
+-->
 <!--
             <div id="gobt">
                 <a href="#none">
