@@ -1,24 +1,47 @@
+/* Default Setting*/
+
+hr {
+    color: #484848;
+    height: 1px;
+    width: 80%;
+    visibility: visible;
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/* Content Area */
+
+.rightArea {
+    position: absolute;
+    top: 2%;
+    right: 2%;
+    width: 50%;
+}
+
+/* Left Area */
+
 .overlay {
     position: absolute;
     z-index: 10000;
-    top: 0.194%;
+    top: 0%;
     left: 0;
     background-color: rgba(20,20,20,0.9);
     overflow: hidden;
     width: 40%;
-    height: 99.9%;
+    height: 100%;
 }
 
 .topMenu {
     position: relative;
-    height: 15%;
+    height: 20%;
 }
 
 .topText {
     color:white;
     font-size: 1.429em;
     position: absolute;
-    top: 70%;
+    top: 50%;
     left: 50%;
     -webkit-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
@@ -37,19 +60,30 @@
     text-decoration: none;
 }
 
+.menuHov {
+    height: 20%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.menuHov:hover {
+    background-color: #d81100;
+    color: white;
+}
+
 .menuBt {
     margin-left: 10%;
-    height: 11%;
 }
 
 .menuBt img {
     width: 4em;
     height: 4em;
+    margin-top: 5%;
 }
 
 .menuText {
     float: right;
-    margin-top: 5%;
+    margin-top: 10%;
     margin-right: 20%;
     color: white;
     font-weight: bold;
@@ -62,7 +96,7 @@
 
 .menuText_2 {
     float: right;
-    margin-top: 7%;
+    margin-top: 10%;
     margin-right: 15%;
     color: white;
     font-weight: bold;
@@ -71,16 +105,4 @@
 
 .menuText_2 div {
     font-size: 1.429em;
-}
-
-hr {
-    color: #202020;
-    height: 1px;
-    width: 80%;
-    visibility: visible;
-    position: relative;
-    margin-bottom: 7%;
-    margin-top: 7%;
-    margin-right: auto;
-    margin-left: auto;
 }
